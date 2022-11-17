@@ -91,7 +91,7 @@ a {
 }
 
 #page-2, #page-3 {
-    padding: 90px 150px 0;
+    padding: 90px 12% 0;
     height: 550px;
 }
 
@@ -109,7 +109,7 @@ a {
     display: flex;
     flex-direction: column;
     color: var(--grayish-blue);
-    padding: 200px 150px 0;
+    padding: 200px 12% 0;
     height: 650px;
     font-size: 17px;
     gap: 25px;
