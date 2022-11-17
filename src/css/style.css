@@ -99,9 +99,13 @@ a {
     background-color: var(--very-light-gray);
 }
 
-/* page 1*/
+/* page 1 */
 
 #page-1 {
+    
+}
+
+#txt {
     display: flex;
     flex-direction: column;
     color: var(--grayish-blue);
@@ -111,7 +115,7 @@ a {
     gap: 25px;
 }
 
-#page-1 h1 {
+#txt h1 {
     color: var( --tittle-color);
     font-weight: 400;
     font-size: 50px;
@@ -125,6 +129,8 @@ a {
 
 #images {
     position: absolute;
+    top: 0;
+    right: 0;
     pointer-events: none;
 }
 
@@ -132,24 +138,27 @@ a {
     position: relative;
     
 }
+
 #bg-intro #pg1-img1 {
     position: inherit;
-    top: -320px;
-    right: -450px;
+    top: -120px;
+    right: -270px;
 }
 
-#bg-intro #pg1-img1 img{
+#bg-intro #pg1-img1 img {
     width: 1000px;
     height: 800px;
 }
 
 #bg-intro #pg1-img2 {
     position: inherit;
-    top: -1040px;
-    right: -580px;
+    top: -840px;
+    right: -425px;
 }
 
 #bg-intro #pg1-img2 img{
     height: 850px;
 }
+
+/* page 2 */
 
